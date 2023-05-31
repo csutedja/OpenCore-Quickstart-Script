@@ -1,7 +1,16 @@
-curl -LO https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.2/OpenCore-0.9.2-DEBUG.zip
-curl -LO https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.2/OpenCore-0.9.2-RELEASE.zip
+gh release download --repo acidanthera/OpenCorePkg --pattern '*.zip'
+gh release download --repo acidanthera/Lilu --pattern '*.zip'
+gh release download --repo acidanthera/VirtualSMC --pattern '*.zip'
 curl -LO https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
-curl -LO https://github.com/acidanthera/Lilu/releases/download/1.6.5/Lilu-1.6.5-RELEASE.zip
-curl -LO https://github.com/acidanthera/VirtualSMC/releases/download/1.3.1/VirtualSMC-1.3.1-RELEASE.zip
-curl -LO https://github.com/acidanthera/AppleALC/releases/download/1.8.2/AppleALC-1.8.2-RELEASE.zip
-
+gh release download --repo acidanthera/WhateverGreen --pattern '*.zip'
+gh release download --repo acidanthera/AppleALC --pattern '*.zip'
+git clone https://github.com/corpnewt/ProperTree
+git clone https://github.com/corpnewt/GenSMBIOS
+cd GenSMBIOS
+chmod +x GenSMBIOS.command
+cd ..
+git clone https://github.com/corpnewt/MountEFI
+cd MountEFI
+chmod +x MountEFI.command
+cd ..
+rm -r *DEBUG*
