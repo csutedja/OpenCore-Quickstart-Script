@@ -32,4 +32,4 @@ Easy fix, simply login to a GitHub account by using the command _gh auth login_
 
 **This program only downloads RELEASE versions, I want DEBUG versions!**
 
-By default, this script is programmed to automatically delete DEBUG versions, to simplify the amount of files that are downloaded. However, on macOS/Linux, you can change this by removing line 16 in the script. You can also change the program to only download DEBUG versions if you need, by changing <code>rm -r *DEBUG*</code> to <code>rm -r *RELEASE*</code>
+By default, this script is programmed to automatically delete DEBUG versions, to simplify the amount of files that are downloaded. However, on macOS/Linux, you can change this by removing line 16 in the script. You can also change the program to only download DEBUG versions if you need, by changing <code>*rm -r *DEBUG**</code> to <code>*rm -r *RELEASE**</code>
