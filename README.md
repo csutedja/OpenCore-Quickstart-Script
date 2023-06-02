@@ -1,5 +1,5 @@
 # OpenCore Quickstart Script
-Multi-platform script for macOS/Linux/Windows that directly downloads all the latest tools and programs needed to create a working OpenCore setup.
+Multi-platform script for macOS/Linux/Windows that directly downloads all the latest tools and programs needed to create a working OpenCore setup using the <a href="https://dortania.github.io/OpenCore-Install-Guide/">OpenCore Install Guide</a>.
 
 # Dependencies
 - **GitHub CLI, logged in**: needed to download latest releases of many of these tools
