@@ -1,9 +1,9 @@
 # OpenCore Quickstart Script
-Multi-platform script for macOS/Linux/Windows that directly downloads all the latest tools and programs needed to create a working OpenCore setup using the <a href="https://dortania.github.io/OpenCore-Install-Guide/">OpenCore Install Guide</a>.
+Multi-platform script for macOS/Linux/Windows (WSL) that directly downloads all the latest tools and programs needed to create a working OpenCore setup using the <a href="https://dortania.github.io/OpenCore-Install-Guide/">OpenCore Install Guide</a>.
 
 # Dependencies
 - **GitHub CLI, logged in**: needed to download latest releases of many of these tools
-- **WSL (Windows only)**: Used to gain the functionality to run .sh files, native Windows script is WIP
+- **WSL (Windows only)**: Used to gain the functionality to run .sh files
 
 # What does this program download?
 _This program downloads the latest "RELEASE" versions of all these tools mentioned in the OpenCore Install Guide:_
@@ -18,15 +18,11 @@ _This program downloads the latest "RELEASE" versions of all these tools mention
 - MountEFI
 
 # How to use?
-**macOS/Linux:**
-- place the _macOS-linux.sh_ file into the directory where you want everything to be downloaded in
-- run the file by entering '_sh macOS-linux.sh'_ in a terminal
+**All platforms**
+- place the _macOS-linux-windows.sh_ file into the directory where you want everything to be downloaded in
+- run the file by entering '_sh macOS-linux.sh'_ in a terminal (WSL if using windows)
 - the program should download your files!
 
-**Windows:**
-- place the _macOS-linux-windows.sh_ file into the directory where you want everything to be downloaded in
-- run the file by entering '_sh macOS-linux-windows.sh'_ in a terminal
-- the program should download your files!
 
 # Troubleshooting
 **GitHub CLI complains that it needs to be signed in**
